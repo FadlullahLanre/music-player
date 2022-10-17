@@ -4,13 +4,16 @@ A music player api that allows a user to upload songs to the music library and m
 ### Postman documentation: 
 https://documenter.getpostman.com/view/20417456/2s83zgujzs
 
+### Api
+https://mplayer-api.herokuapp.com/
+
 ### Endpoints
 The following endpoints are available on this server:
-- `/users/sigup`: registers a new user.
-- `/users/login`: logs in a user.
-- `/users/logout`: logs out a user(protected route).
-- `/users/forgotPassword`: to get reset password url.
-- `/users/resetPassword/:token`: to reset password.
+- `/user/sigup`: registers a new user.
+- `/user/login`: logs in a user.
+- `/user/logout`: logs out a user(protected route).
+- `/user/forgotPassword`: to get reset password url.
+- `/user/resetPassword/:token`: to reset password.
 - `/library/uploadMusic`: to upload songs to your library
 - `/library/getLibrary`: to get all songs in the library
 - `/library/deleteMusic`: to delete a song from the library
