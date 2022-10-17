@@ -1,7 +1,7 @@
 # Music-player
-A music player api that allows a user to upload songs and make a playlist out of them
+A music player api that allows a user to upload songs to the music library and make a playlist out of them
  
-#Link to postman documentation: 
+### Postman documentation: 
 https://documenter.getpostman.com/view/20417456/2s83zgujzs
 
 ### Endpoints
